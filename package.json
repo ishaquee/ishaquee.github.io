@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://ishaquee.github.io",
   "dependencies": {
     "@emotion/core": "^10.1.1",
     "@emotion/react": "^11.9.0",
@@ -15,6 +16,7 @@
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
     "eslint-plugin-react": "^7.28.0",
+    "gh-pages": "^4.0.0",
     "loader": "^2.1.1",
     "materialize-css": "^1.0.0-rc.2",
     "moment": "^2.29.4",
@@ -38,7 +40,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "dev": "npm run start"
+    "dev": "npm run start",   
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
