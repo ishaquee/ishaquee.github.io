@@ -262,29 +262,38 @@ function Postsfromfollowing() {
       )
      }) : 
      <div>  
-     <h1 style={{
+     <h3 style={{
          display:"flex",
          alignItems:"center",
-         justifyContent:"center"
+         justifyContent:"center",
+         marginTop:'100px'
      }} > <RiCameraOffFill style={{
          display: "flex",
          alignItems:"center",
          justifyContent:"center",
          color:"red"
-     }} /> No Post Yet</h1> 
+     }} /> No Post Yet</h3> 
      </div>   : <div>  
-            <h1 style={{
+            <h3 style={{
                 display:"flex",
                 alignItems:"center",
-                justifyContent:"center"
+                justifyContent:"center",
+                marginTop:'100px'
             }} > <FaUserAltSlash style={{
                 display: "flex",
                 alignItems:"center",
                 justifyContent:"center",
                 color:"red"
-            }} /> No followings</h1> 
+            }} /> No followings</h3> 
             </div>                
-            : "Please Wait "
+            : <div>  
+            <h3 style={{
+                display:"flex",
+                alignItems:"center",
+                justifyContent:"center",
+                marginTop:'100px'
+            }} > Loading Please wait </h3> 
+            </div>  
         }  
             </div>
      

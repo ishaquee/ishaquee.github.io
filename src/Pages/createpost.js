@@ -83,10 +83,10 @@ function Createpost() {
             
         <div className="file-field input-field" style={{display:'flex',alignContent:'center',alignItems:'center',justifyItems:'center',justifyContent:'center'}}>
       
-        <li style={{margin:'10px',display:'flex',flexWrap:'wrap',width:'100px',borderRadius:'10px'}} class="btn1 profile-edit-btn btn waves-effect waves-light #0d47a1 blue darken-4"> <span style={{color:"white",fontSize:'14px',marginLeft:'-14px',fontWeight:'700'}}>  upload </span>
+        <li style={{margin:'10px',display:'flex',flexWrap:'wrap',width:'130px',borderRadius:'10px'}} class="btn1 profile-edit-btn btn waves-effect waves-light #0d47a1 blue darken-4"> <span style={{color:"white",fontSize:'14px',marginLeft:'-14px',fontWeight:'700'}}>  upload pic </span>
                  <input type="file"  onChange={(e)=>setImage(e.target.files[0])} accept="image/png, image/gif, image/jpeg" /></li>   
                  
-             <button onClick={()=> submitPost()} className={'btn waves-effect waves-loght btn-medium #64b5f6 darken-4 cusbtn'} type='submit' style={{fontSize:'15px',fontWeight:'bolder'}}>Post</button>
+             <button onClick={()=> submitPost()} className={'btn waves-effect waves-loght btn-medium #64b5f6 darken-4 cusbtn'} type='submit' style={{fontSize:'15px',fontWeight:'bolder',width:'140px'}}>Create Post</button>
              </div>
              
           <div id='center'>

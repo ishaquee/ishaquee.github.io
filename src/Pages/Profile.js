@@ -177,11 +177,11 @@ function Profile() {
 <Link to={`/p/${mypost._id}`}>      <img className='post' src= {mypost.image} alt= {mypost.title} key={mypost._id} title={ mypost.likes.length+ " likes ❤️ "} />       </Link> </div>
                         )   })
                         : <div>  
-                        <h5 style={{
+                        <h6 style={{
                             display:"flex",
                             alignItems:"center",
                             justifyContent:"center"
-                        }} >  don't have Any Post </h5>     
+                        }} >  you didn't posted anything  </h6>     
               </div>  :  <div id='center'>
                         { <Watch 
                heigth="100"
@@ -197,21 +197,19 @@ function Profile() {
  
  <div className='Posts' style={{borderBottom:'1px solid black',paddingBottom:'50px',marginBottom:'100px'}}>
         {
-   mysavedposts ?  mysavedposts.length > 0 ? 
+   mysavedposts ? mysavedposts.length > 0 ? 
             mysavedposts.map((mypost)=>{
                 return( 
                     <div className='center post-test'>
-
-                        <Link to={`/p/${mypost._id}`}>      <img className='post' src= {mypost.image} alt= {mypost.title} key={mypost._id} title={ mypost.likes.length+ " likes ❤️ "} />       </Link> </div>
+                        <Link to={`/p/${mypost._id}`}>   <img className='post' src= {mypost.image} alt= {mypost.title} key={mypost._id} title={ mypost.likes.length+ " likes ❤️ "} />       </Link> </div>
                 )   })
-                : <div>  
-                <h5 style={{
+              : <div>  
+                <h6 style={{
                     display:"flex",
                     alignItems:"center",
                     justifyContent:"center"
-                }} >  don't have Any Post </h5> 
-                </div> 
-                :  <div id='center'>
+                }} >  No you don't have any saved post  </h6> 
+                </div>  :  <div id='center'>
                 { <Watch 
        heigth="100"
        width="100"
@@ -219,7 +217,7 @@ function Profile() {
        ariaLabel='loading'
        value="uploading !"
       /> } 
-                </div> 
+      </div>
         }
 </div>
     </div>
