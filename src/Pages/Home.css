@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+
+.m10{
+    margin-top: 400px !important;
+}
+
+.commentpage{
+    display:inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-items: center;
+}
+
+.card1{
+    max-width:  450px;
+    margin: 30px auto;
+    padding: 15px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 9px;
+    background-color: whitesmoke;
+}
+
+.pp12{
+    display: inline-block;
+    max-width: 250px;
+    padding: 5px;
+    word-break: break-all; 
+    /* optional */
+}
+.card2{
+    max-width:  350px;
+    margin: 10px auto;
+    padding: 15px;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+    border-radius: 9px;
+    backdrop-filter: blur(10px) !important;
+    max-height: 200px;
+}
+
+
+.cmtip{
+    display: block;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin-bottom: 100px;
+
+}
+.cmtip > input[type="text"], textarea {
+
+    background-color : #000000; 
+  
+  }
+
+h6{
+    padding: 10px;
+}
+
+
+.post-title{
+    font-family: 'Bodoni Moda', serif;
+}
+.post-body-text{
+    font-family: 'Epilogue', sans-serif;
+}
+
+.post-image{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    object-position:50% 50%;
+    -webkit-tap-highlight-color: transparent;
+    padding: 10px;
+    border-radius: 25px;
+}
+.fullname1{
+    font-family: 'Arvo', serif;
+    font-weight: 100;
+    padding-bottom: 0px;
+}
+.date{
+    display: inline;
+    font-size: 13px;
+    margin-left: 35% !important;
+}
+.save{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.slc{
+    display: flex !important;
+    align-items: center !important;
+    justify-self: center !important;
+}
+
+
+.likes, .share , .cmtbtn{
+    margin: 5px;
+}
+.home-container{
+    margin-bottom: 100px !important;
+}
+.image-icon{
+    width: 25px !important;
+    float: left;
+    object-fit:cover !important;
+    display: inline !important;
+    border: 1px solid rgb(0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+}
+.comment{
+    text-align: start;
+}
+
+#columnBox{
+            display:list-item;
+            padding: 2px;
+            max-height: 600px;
+            overflow-y: scroll;
+            font-family: "Lucida Console", "Courier New", monospace;
+            margin-bottom: 10px;
+        }
+
+@media screen and (max-width: 800px) {
+   .home-container{
+       margin: 2% 1%;
+   }
+   .date{ 
+    margin-left: 18% !important;
+    font-size: 12px;
+}
+.commentpage{
+    width: auto;
+}
+#columnBox{
+    width: 100%;
+}
+
+
+.image-icon{
+    margin-top: 0px !important;
+}
+  }

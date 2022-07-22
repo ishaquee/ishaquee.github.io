@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Moonrocks&display=swap');
+
+
+.style{
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.setting{
+    margin: 50px auto !important;
+    margin-bottom: 100px !important;
+}
+
+.uname{
+    font-family: 'Rubik Moonrocks', cursive;
+    font-weight: 200 !important;
+    color:rgb(12, 12, 12) !important;
+    font-size: 15px;
+}
+.style1{
+    max-width: 350px;
+    min-width: 300px;
+    padding: 10px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100px;
+    margin: 10px;
+
+    
+}
+
+.style > .style1 > h6 {
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    .full{
+        margin: 20% 5% !important;
+    }
+}

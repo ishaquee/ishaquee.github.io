@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+.create-post{
+    max-width: 400px;
+    margin: 200px auto !important;
+    padding: 15px;
+    text-align: center;
+    background: transparent;
+    background-color:transparent;
+    text-decoration: none;
+    border-radius: 15px;
+}
+.cusbtn{
+    background-color:crimson;
+    border-radius: 10px !important;
+    width: 100px;
+    margin: 10px;
+}
+
+
+.new-font{
+    font-family: 'Edu VIC WA NT Beginner', cursive;
+
+}
+
+.toast{
+    font-size: 20px ;
+    color: black;
+}
+
+#center{
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: 5px !important;
+}
+@media screen and (max-width: 800px) {
+    .create-post{
+        border-radius: 15px !important;
+        margin-left: 2% !important;
+        margin-right: 2% !important;
+    }
+    .toast{
+        font-size: 20px ;
+        color: black;
+        width: 80%;
+        display: flex;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    
+   }

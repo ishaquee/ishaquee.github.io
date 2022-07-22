@@ -1,0 +1,18 @@
+#toast-container{
+    top: 25px !important;
+    right: 25px !important;
+    left: auto !important;
+}
+
+.signup{
+    font-size: 12px !important;
+}
+
+@media screen and (max-width: 800px) {
+    .login-container{
+        margin: 6%;
+    }
+    .signup{
+        font-size: 10px !important;
+    }
+   }

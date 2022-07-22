@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+
+
+.pp{
+  object-fit:cover !important;
+  object-position:100% 50% !important;  
+
+}
+
+.profile-edit-btn input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    min-height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    outline: none;
+    background: rgb(246, 13, 13);
+    cursor: inherit;
+    display: block;
+  }
+
+  .Posts{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    align-content: space-between;
+    justify-items:start;
+    margin: 5px;
+   margin-bottom: 5px;
+   max-height:  400px;
+   overflow-y: scroll;
+   margin-bottom: 50px;
+}
+.post{
+  object-fit:cover;
+
+  border-radius: 10px;
+  width: 100%;
+  height: 150px;
+  cursor: pointer;
+  padding: 10px;
+  border: 0.9px solid black;
+
+border-radius: 10px !important;
+box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+.post-test{
+  width: 40%;
+  margin: 10px;
+  object-position:50% 50%;  
+
+}
+
+
+.post a[title]:hover::after {
+  content: attr(title);
+  position: absolute;
+  top: 100%;
+  left: 0;
+  color: rgb(255, 255, 255);
+}
+
+.profile-edit-btn {
+  font-size: 1.4rem;
+  border-radius: 0.3rem;
+  padding: 0 2.4rem;
+  position: relative;
+ overflow: hidden;
+ -webkit-tap-highlight-color: transparent;
+}
+.username{
+  margin-top: -7px;
+  font-family: 'Caveat', cursive;
+  background-image: linear-gradient(60deg,#00ff40, #5900ff,#8d8995);
+  background-clip: text;
+  color: transparent;
+}
+
